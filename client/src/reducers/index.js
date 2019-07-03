@@ -1,11 +1,11 @@
 import {combineReducers} from "redux";
 
-function someThing(state = "") { 
+function users(state = []) { 
   return state;
 }
 
-
 const rootReducer = combineReducers({
-  someThing
+  users
 });
+
 export default rootReducer;

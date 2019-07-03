@@ -22,3 +22,38 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.body {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: ;
+  grid-template-areas: ". .";
+}
+
+/* link styling */
+a {
+  padding-right: 10px;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
